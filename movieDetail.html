@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE Cinema</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/moviedetail_style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark nav-class">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/logo-header-vue.png" alt="Cinema Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 navigation_link_class">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="index.html?referrer=navbar">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="movies.html?referrer=navbar">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="kitchen.html?referrer=navbar">Kitchen Bar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="contacts.html?referrer=navbar">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container rounded-2 row mt-5" id="doctor_strange_moviedetail_article">
+        <div class="col-md-4 col-sm-12 my-3" id="image_of_doctor_strangle_div">
+            <img class="img-fluid" src="images/movies/Doctor_Strange_MovieDetail.jpg" data-bs-toggle="tooltip" 
+            data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+            data-bs-title="Now Showing in Cinema. Doctor Strange in the Multiverse of Madness"
+                alt="Doctor Strange in the Multiverse of Madness">
+        </div>
+        <div class="col-md-4 col-sm-12" id="doctor_strange_detail_content_div_id">
+            <div class="mt-2" id="doctor_strange_header_div_id">
+                <h2>Doctor Strange in the Multiverse of Madness</h2>
+            </div>
+            <div class="mt-3" id="misc_id">
+                <span class="col-md-4 col-sm-4">PG13 &#183;</span>
+                <span class="col-md-4 col-sm-4">2hr6min &#183;</span> 
+                <span class="col-md-4 col-sm-4">24/5/2022</span>
+            </div>
+            <div class="my-3" id="movie_summary_div_id">
+                <p>In Marvel Studios' "Doctor Strange in
+                    the Multiverse of Madness," the MCU
+                    unlocks the Multiverse and pushes its
+                    boundaries further than ever before.
+                    Journey into the unknown with Doctor
+                    Strange, who, with the help of mystical
+                    allies both old and new, traverses the
+                    mind-bending and dangerous alternate
+                    realities of the Multiverse to confront
+                    a mysterious new adversary.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="mt-2" id="movie_cast_detail_div_id">
+                <p>
+                    <strong>Genre</strong> : Fantasy, Action,
+                    Adventure<br>
+                    <strong>Director</strong> : Scott
+                    Derrickson, Sam Raimi<br>
+                    <strong>Starring</strong> : Benedict
+                    Cumberbatch, Elizabeth
+                    Olsen, Chiwetel Ejiofor,
+                    Benedict Wong, Xochitl
+                    Gomez
+                </p>
+            </div>
+            <div class="mt-3" id="need_to_know_id">
+                <h3>Need to Know</h3>
+                <ul class="mt-2 p-2">
+                    <li class="mt-3"> Peak Screenings (after 6pm) $10.50. Concession $9</li>
+                    <li class="mt-3">Off-Peak Screening (before 6pm) $9. Concessions $8</li>
+                    <li class="mt-3">Under 26s $5 all screening</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <article class="container rounded-2 row mt-5" id="show_times_article_id">
+        <div class="col-md-7 col-sm-12 table-responsive-md" id="table_show_times_div_id">
+            <table class="table caption-top table-bordered border-dark border-3 mt-2 mb-4">
+                <caption class="text-white text-center fw-bolder">Show Times</caption>
+                <thead class="table-dark">
+                    <tr>
+                        <th class="text-white text-center" scope="col">Date</th>
+                        <th class="text-white text-center" colspan="4" scope="col">Timing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-secondary">
+                        <td class="text-dark" scope="row">24 May 2022</td>
+                        <td><a class="text-dark" title="Odeon Hall 1" href="bookshow.html">11:00am</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 2" href="bookshow.html">1:00pm</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 3" href="bookshow.html">3:00pm</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 5" href="bookshow.html">5:00pm</a></td>
+                    </tr>
+                    <tr class="table-dark">
+                        <td class="text-white" scope="row">24 May 2022</td>
+                        <td><a class="text-white" title="Odeon Hall 1" href="bookshow.html">7:30pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 3" href="bookshow.html">9:00pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 2" href="bookshow.html">10:30pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 5" href="bookshow.html">12:00pm</a></td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td class="text-dark" scope="row">25 May 2022</td>
+                        <td><a class="text-dark" title="Odeon Hall 2" href="bookshow.html">10:30am</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 3" href="bookshow.html">12:00pm</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 1" href="bookshow.html">2:00pm</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 4" href="bookshow.html">4:00pm</a></td>
+                    </tr>
+                    <tr class="table-dark">
+                        <td class="text-white" scope="row">25 May 2022</td>
+                        <td><a class="text-white" class="text-white" title="Odeon Hall 5"
+                                href="bookshow.html">6:30pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 3" href="bookshow.html">8:00pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 1" href="bookshow.html">10:30pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 4" href="bookshow.html">11:30pm</a></td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td class="text-dark" scope="row">26 May 2022</td>
+                        <td><a class="text-dark" title="Odeon Hall 1" href="bookshow.html">11:30am</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 3" href="bookshow.html">1:30pm</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 5" href="bookshow.html">4:00pm</a></td>
+                        <td><a class="text-dark" title="Odeon Hall 4" href="bookshow.html">6:30pm</a></td>
+                    </tr>
+                    <tr class="table-dark">
+                        <td class="text-white" scope="row">26 May 2022</td>
+                        <td><a class="text-white" title="Odeon Hall 5" href="bookshow.html">8:30pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 3" href="bookshow.html">9:50pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 1" href="bookshow.html">10:30pm</a></td>
+                        <td><a class="text-white" title="Odeon Hall 4" href="bookshow.html">12:30pm</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-5 col-sm-12" id="images_of_doctor_strange_id_div">
+            <h2 class="my-2 text-center fw-bolder text-white">Still</h2>
+            <div class="d-flex justify-content-md-center">
+                <div class="flex-column" id="small_doctor_strange_image_odd_div_id">
+                    <a href="images/movies/doctor_strange_big_image1.jpg" target="_blank"><img
+                            src="images/movies/doctor_strange_small_image1.jpg" class="img-fluid img-thumbnail my-2"
+                            alt="Photo of Doctor Strange in the Multiverse of Madness"></a>
+                    <a href="images/movies/doctor_strange_big_image3.jpg" target="_blank"><img
+                            src="images/movies/doctor_strange_small_image3.jpg" class="img-fluid img-thumbnail my-2"
+                            alt="Photo of Doctor Strange in the Multiverse of Madness"></a>
+                   <a href="images/movies/doctor_strange_big_image5.jpg" target="_blank"><img
+                        src="images/movies/doctor_strange_small_image5.jpg" class="img-fluid img-thumbnail my-2"
+                        alt="Photo of Doctor Strange in the Multiverse of Madness"></a>
+            </div>
+        
+        <div class="flex-column" id="small_doctor_strange_images_even_div_id">
+            <a href="images/movies/doctor_strange_big_image2.jpg" target="_blank"><img
+                    src="images/movies/doctor_strange_small_image2.jpg" class="img-fluid img-thumbnail my-2"
+                    alt="Photo of Doctor Strange in the Multiverse of Madness"></a>
+            <a href="images/movies/doctor_strange_big_image4.jpg" target="_blank"><img
+                    src="images/movies/doctor_strange_small_image4.jpg" class="img-fluid img-thumbnail my-2"
+                    alt="Photo of Doctor Strange in the Multiverse of Madness"></a>
+            <a href="images/movies/doctor_strange_big_image6.jpg" target="_blank"><img
+                    src="images/movies/doctor_strange_small_image6.jpg" class="img-fluid img-thumbnail my-2"
+                    alt="Photo of Doctor Strange in the Multiverse of Madness"></a>
+        </div>
+        </div>
+      </div>
+    </article>
+    <footer class="container rounded-2 mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-3 my-auto ms-4 class-col-paragraph">
+                <p>&copy; VUE Cinemas Limited 2019 to 2022. All rights reserved</p>
+            </div>
+            <div class="col-md-3 col-sm-3 my-5"></div>
+            <div class="col-md-1 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/facebook.png" class="img-fluid" alt="Facebook"></a>
+            </div>
+            <div class="col-md-1 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/twitter.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="col-md-2 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/instagram.png" class="img-fluid" alt=""></a>
+            </div>
+        </div>
+    </footer>   
+    <script src="js/script.js"></script>
+<body>
+
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Cinema</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark nav-class">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="images/logo/logo-header-vue.png" alt="Cinema Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 navigation_link_class">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning fs-5" href="index.html?referrer=navbar">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning fs-5" href="movies.html?referrer=navbar">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning fs-5" href="kitchen.html?referrer=navbar">Kitchen Bar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning fs-5" href="contacts.html?referrer=navbar">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <article class="container rounded-2 mt-5" id="form_article">
+        <h1 class="text-center p-4">Send Us A Message</h1>
+        <form class="my-2" action="www.example.com/survey" method="post">
+            <div class="form-group">
+                <div class="row align-items-center my-3">
+                    <div class="offset-md-2 col-md-2">
+                        <label class="col-form-label" for="first_name">First Name* :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" type="text" id="first_name" name="firstName" maxlength="40"
+                            required>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text-class" class="form-text">
+                            For example Ang.
+                        </span>
+                    </div>
+                </div>
+                <div class="row align-items-center my-3">
+                    <div class="offset-md-2 col-md-2">
+                        <label class="col-form-label" for="last_name">Last Name* :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" type="text" id="last_name" name="lastName" maxlength="60" required>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text-class" class="form-text">
+                            For example Theow Meng.
+                        </span>
+                    </div>
+                </div>
+                <div class="row align-items-center my-3">
+                    <div class="offset-md-2 col-md-2">
+                        <label class="col-form-label" for="phone_num">Phone :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" type="tel" id="phone_num" name="phoneNumber" maxlength="10">
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text form-text-class">
+                            For example 65 98306591.
+                        </span>
+                    </div>
+                </div>
+                <div class="row align-items-center my-3">
+                    <div class="offset-md-2 col-md-2">
+                        <label class="col-form-label" for="email">Email* :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" type="email" id="email" name="emailAddress" maxlength="60" required>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text form-text-class">
+                            For example tmang@outlook.sg.
+                        </span>
+                    </div>
+                </div>
+                <div class="row align-items-center my-3">
+                    <div class="offset-md-2 col-md-2">
+                        <label class="col-form-label" for="confirm_email">Confirm Email* :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control" type="email" id="confirm_email" name="confirmEmail" maxlength="60"
+                            required>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text form-text-class">
+                            For example tmang@outlook.sg.
+                        </span>
+                    </div>
+                </div>
+                <div class="row align-items-center my-3">
+                    <div class="offset-md-2 col-md-2">
+                        <label class="col-form-class">Enquiry Type* :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="form-select" name="enquiry_type">
+                            <option value="nature_of_enquiry">Nature of Enquiry</option>
+                            <option value="yours_experience_with_us">Your experience with us</option>
+                            <option value="booking_issues">Booking Issues</option>
+                            <option value="ecard_issues">Ecard Issues</option>
+                            <option value="enquiries">Food and Beverages</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text form-text-class">
+                            Please select one option.
+                        </span>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="offset-md-2 col-md-2 align-text-top">
+                        <label id="textBox_id" for="message">Message* :</label>
+                    </div>
+                    <div class="col-md-4">
+                        <textarea id="message" rows="10" name="message_name" required></textarea>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="form-text form-text-class align-text-top">
+                            Please write your message.
+                        </span>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="offset-md-6 col-md-2 my-2" id="container_submit_id"><input id="submit_id" type="submit"
+                            value="Submit"></div>
+                </div>
+            </div>
+        </form>
+    </article>
+    <footer class="container rounded-2 mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-3 my-auto ms-4 class-col-paragraph">
+                <p>&copy; VUE Cinemas Limited 2019 to 2022. All rights reserved</p>
+            </div>
+            <div class="col-md-3 col-sm-3 my-5"></div>
+            <div class="col-md-1 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/facebook.png" class="img-fluid" alt="Facebook"></a>
+            </div>
+            <div class="col-md-1 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/twitter.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="col-md-2 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/instagram.png" class="img-fluid" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+.nav-class {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5%;
+} 
+
+/*Style for the navigation a:hover*/
+ul.navigation_link_class a:hover  {
+    background-color: rgba(133, 43, 243, 0.89);
+}
+
+ 
+ /*Style the form article*/
+ article#form_article {
+    background-image: linear-gradient(red,#2c07a5);
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ /*Style the h1 tag*/
+ article#form_article > h1 {
+    font-size: 2.1em;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: #eeda11;
+}
+
+/*Style the label*/
+label, .form-text-class {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f3e659;
+}
+
+/*Style the input, select, textarea*/
+textarea {
+    width: 100%;
+}
+
+#submit_id {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f359ab;
+    border: 2px solid hsl(84, 81%, 77%);
+    padding: 5px;
+} 
+
+/* Validation Styles */
+input:focus, select:focus, textarea:focus {
+   background: rgb(102, 236, 102) url(../images/logo/pc_valid.png) bottom right/contain no-repeat;
+}
+
+input#first_name:focus:invalid,
+input#last_name:focus:invalid,
+input#email:focus:invalid,
+input#confirm_email:focus:invalid  {
+   background: rgb(81, 208, 224) url(../images/logo/pc_invalid.png) bottom right/contain no-repeat;
+}
+
+/*Style the footer*/
+body > footer {
+    background-image: linear-gradient(red,#2c07a5);
+}
+
+/*Style the footer text*/
+.class-col-paragraph > p {
+     font-size: 1.0em;
+     color: #bae9e9;
+    }
+
+.class-image-div {
+     display: block;
+     width: 7%;
+     max-width: 10%;
+}
+
+ /*Style the footer image*/
+.class-image-div img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

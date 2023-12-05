@@ -1,0 +1,198 @@
+/*Style the header*/
+.nav-class {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5%;
+} 
+
+/*Style for the navigation a:hover*/
+ul.navigation_link_class a:hover  {
+    background-color: rgba(133, 43, 243, 0.89);
+ }
+
+ .carousel-caption > h2 {
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+ }
+
+/*Style the second navigation*/
+ a.nav-link-class:hover {
+    background-color: rgb(0, 255, 110);
+}
+
+/*Style the second link font color and size*/
+.nav-link-class {
+    color: #f7e842;
+    font-size: 1.2em;
+}
+
+ /*Style the card text of the Thor card*/
+.thor_card_text_class {
+    margin-top: 10%;
+}
+
+/*Style the button of the Thor card*/
+.thor_btn_class {
+    margin-top: 18%;
+    margin-bottom: 2%;
+}
+
+/*Style the card text of the Minions card*/
+.minions_card_text_class {
+    margin-top: 11%;
+}
+
+/*Style the button of the Minions card*/
+.mino_btn_class {
+    margin-top: 16%;
+    margin-bottom: 2%;
+}
+
+/*Style thee button of the Doctor Strange card*/
+.doctorStrange_btn_class {
+    margin-top: 12%;
+    margin-bottom: 2%;
+}
+
+/*Style the text of the Top Gun card*/
+.topGun_card_text_class {
+    margin-top: 14%;
+}
+
+/*Style the button of the Top Gun card*/
+.topGun_btn_class {
+    margin-top: 12%;
+    margin-bottom: 2%;
+}
+
+/*Style the button of the Elevis card*/
+.elevis_btn_class {
+    margin-top: 6%;
+}
+
+/*Style the button of the Jussical World card*/
+.jussicalWorld_btn_class {
+    margin-top: 6%;
+}
+
+/*Style the button of the Light Year card*/
+.lightYear_btn_class {
+    margin-top: 6%;
+}
+
+/*Style the button of the Sonic card*/
+.sonic_btn_class {
+    margin-top: 6%;
+}
+
+/*Style the button of the Abbey card*/
+.abbey_btn_class {
+    margin-top: 8%;
+}
+
+/*Style the text of the CrawDads card*/
+.crawDads_card_text_class {
+    margin-top: 14%;
+}
+
+/*Style the button of the CrawDads card*/
+.crawDads_btn_class {
+    margin-top: 8%;
+}
+
+/*Style the text of the Black Phone card*/
+.blackPhone_card_text_class {
+    margin-top: 14%;
+}
+
+/*Style the button of the Black Phone card*/
+.blackPhone_btn_class {
+    margin-top: 8%;
+}
+
+/*Style the text of the Prima Facie*/
+.primaFacie_card_text_class {
+    margin-top: 14%;
+}
+
+/*Style the button of the Prima Facie*/
+.primaFacie_btn_class {
+    margin-top: 8%;
+}
+
+/*Style the footer*/
+body > footer {
+    background-image: linear-gradient(red,#2c07a5);
+    border-radius: 5px;
+    margin-top: 40px;
+ }
+
+/*Style the footer text*/
+.class-col-paragraph > p {
+     font-size: 1.0em;
+     color: #bae9e9;
+    }
+
+.class-image-div {
+     display: block;
+     width: 7%;
+}
+
+ /*Style the footer image*/
+.class-image-div img {
+    width: 100%;
+}
+
+/*Style the tooptip*/
+.tooltip-inner {
+    text-align: left;
+    font-size: 0.9em;
+    color:#f7e842;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

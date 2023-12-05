@@ -1,0 +1,166 @@
+.nav-class {
+    background-image: linear-gradient(red, #2c07a5);
+    border-radius: 5%;
+}
+
+/*Style for the navigation a:hover*/
+ul.navigation_link_class a:hover {
+    background-color: rgba(133, 43, 243, 0.89);
+}
+
+/*Style of Doctor Strange Image*/
+div#doctor_strange_moviedetail_article {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the image of doctor strange the movie*/
+#image_of_doctor_strangle_div>img {
+    width: 100%;
+}
+
+/*Style the heading of Doctor Strange*/
+div#doctor_strange_header_div_id>h2 {
+    font-size: 1.8em;
+    letter-spacing: 2.5px;
+    word-spacing: 4.5px;
+    color: #eeda11;
+}
+
+/*Style the movie misc of doctor strange the movie*/
+div#doctor_strange_detail_content_div_id #misc_id {
+    font-size: 1.2em;
+    color: #eeda11;
+    letter-spacing: 1.2px;
+}
+
+/*Style the paragraph*/
+div#movie_summary_div_id p {
+    font-size: 1.1em;
+    letter-spacing: 0.9px;
+    word-spacing: 1px;
+    line-height: 1.4em;
+    color: #ada118;
+
+}
+
+/*Style the director, casting of the doctor strange the movie*/
+div#movie_cast_detail_div_id>p {
+    font-size: 1em;
+    padding: 1px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+    color: #ada118;
+}
+
+/*Style the genre, director, casting of the doctor strange the movie*/
+div#movie_cast_detail_div_id>p strong {
+    font-size: 1.3em;
+    color: #eeda11;
+}
+
+/*Style for the title Need to know*/
+div#need_to_know_id>h3 {
+    font-size: 1.3em;
+    letter-spacing: 5px;
+    color: #eeda11;
+}
+
+/*Style the unorder list*/
+div#need_to_know_id>ul {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    color: #ada118;
+}
+
+/*Style the table*/
+article#show_times_article_id {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+article#show_times_article_id>div#table_show_times_div_id>table td {
+    padding: 5px;
+    vertical-align: middle;
+    margin: 10%;
+    text-align: center;
+}
+
+/*Style the table caption*/
+article#show_times_article_id>div#table_show_times_div_id>table caption {
+    font-size: 1.2em;
+    letter-spacing: 2%;
+    word-spacing: 6%;
+    margin: 5px;
+}
+
+article#show_times_article_id>div#table_show_times_div_id>table td a:hover {
+    background-color: rgba(62, 239, 27, 0.89);
+}
+
+/*Style the title of image*/
+article#show_times_article_id>div#images_of_doctor_strange_id_div h2 {
+    font-size: 1.5em;
+}
+
+/*Style the left side of the image*/
+article#show_times_article_id>div#images_of_doctor_strange_id_div div#small_doctor_strange_image_odd_div_id {
+    display: block;
+    width: 40%;
+}
+
+/*  */
+article#show_times_article_id>div#images_of_doctor_strange_id_div div#small_doctor_strange_image_odd_div_id img {
+    border-radius: 8px;
+    width: 60%;
+}
+
+/*Style the img when the mouse move over*/
+article#show_times_article_id>div#images_of_doctor_strange_id_div div#small_doctor_strange_image_odd_div_id img:hover {
+    border: 6px solid green;
+}
+
+/*Style the right side of the image*/
+article#show_times_article_id>div#images_of_doctor_strange_id_div div#small_doctor_strange_images_even_div_id {
+    width: 40%;
+}
+
+article#show_times_article_id>div#images_of_doctor_strange_id_div div#small_doctor_strange_images_even_div_id img {
+    border-radius: 8px;
+    width: 60%;
+}
+
+/*Style the image when the mouse mover over*/
+article#show_times_article_id>div#images_of_doctor_strange_id_div div#small_doctor_strange_images_even_div_id img:hover {
+    border: 6px solid green;
+}
+
+/*Style the footer*/
+body>footer {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the footer text*/
+.class-col-paragraph>p {
+    font-size: 1.0em;
+    color: #bae9e9;
+}
+
+.class-image-div {
+    display: block;
+    width: 7%;
+    max-width: 10%;
+}
+
+/*Style the footer image*/
+.class-image-div img {
+    width: 100%;
+}
+
+/*Style the tooptip*/
+.tooltip-inner {
+    text-align: left;
+    font-size: 0.9em;
+    color:#f7e842;
+}
+

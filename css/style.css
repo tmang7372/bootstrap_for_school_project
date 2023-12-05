@@ -1,0 +1,228 @@
+/*Style the header*/
+.nav-class {
+    background-image: linear-gradient(red, #2c07a5);
+    border-radius: 5%;
+}
+
+/*Style for the navigation a:hover*/
+ul.navigation_link_class a:hover {
+    background-color: rgba(133, 43, 243, 0.89);
+}
+
+/*Style the movie image*/
+div#movies_article {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the title of the movie article*/
+div#movies_article>h1 {
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    word-spacing: 0.5em;
+    color: #cbf3f3;
+}
+
+/*Style the title of the card*/
+.div_card_alink_class>h5 {
+    color: hsl(229, 89%, 22%)
+}
+
+/*Make sure that all the cards are align properly*/
+.movies_articles_div_class {
+    margin-bottom: 1em;
+}
+
+/*Make sure all the the doctor strange's detail button 
+are all in the same line as the other detail buttons*/
+.class_div_doctorStrange_a_link {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+/*Make sure all the fire starter's detail button are all in
+the same line as the other detail button*/
+.class_div_fireStarter_a_link {
+    margin-top: 26%;
+    margin-bottom: 1%;
+}
+
+/*Make sure all the jussical world's detail button are all in the same line*/
+.class_div_jussicalWorld_a_link {
+    margin-top: 14%;
+    margin-bottom: 1%;
+}
+
+.class_div_topGun_a_link {
+    margin-top: 29%;
+    margin-bottom: 1%;
+}
+
+.movies_article_link_class a:hover {
+    background-color: rgba(133, 43, 243, 0.89);
+}
+
+/*Style the corporate customer article*/
+div#corporate_customer_article {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the corporate card*/
+div#corporate_customer_article img {
+    width: 100%;
+}
+
+/*Style the corporate card title*/
+div#corporate_customer_article h3 {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #cbf3f3;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+}
+
+/*Style the corporate card description*/
+div#corporate_customer_article p {
+    /* margin-left: 5%; */
+    font-size: 1.5em;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+    letter-spacing: 1px;
+    color: #00FFFF;
+}
+
+/*Style the navigation link*/
+div#corporate_customer_article a {
+    background-color: #036434;
+    color: #bae9e9;
+}
+
+/*Style the corporate custome a:hover*/
+div#corporate_customer_article a:hover {
+    box-shadow: 0 0 14px 14px rgba(245, 237, 169, 0.5);
+}
+
+/*Style the birthday article*/
+div#cinema_birthday_article {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the h2 heading of the borthday article*/
+div#cinema_birthday_article h2 {
+    color: #cbf3f3;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    font-size: 2.5em;
+}
+
+/*Style the two columns of the birthday article*/
+p.cinema_birthday_class {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #bae9e9;
+}
+
+/*Style the basic package column*/
+p#basic_package {
+    padding: 1em 1em;
+}
+
+/*Style the premium package column*/
+p#premium_package {
+    padding: 1em 1em;
+}
+
+/*Style the color of the button*/
+.btn-class {
+    background-color: #036434;
+    color: #bae9e9;
+}
+
+/*Style the bottom margin of the card*/
+.card-class {
+    margin-bottom: 1em;
+}
+
+/*Style the background color of the offcanvas*/
+.class_offcanvas_header {
+    background-color: #036434;
+}
+
+.h1-text-class {
+    color: #bae9e9;
+    font-size: 1.2em;
+}
+
+/*Style the title of the card*/
+.card-text {
+    color: hwb(103 2% 73%);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*Overall Styling of the kitchen bar*/
+div#kitchen_bar_article {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the kitchen food image*/
+div.image_food_class>img {
+    margin: 2% auto;
+}
+
+/*Style the two span*/
+.btn-color {
+    background-color: #036434;
+    box-shadow: 8px 8px 10px 0px #72d779;
+    color: #bae9e9;
+}
+
+.menu-class {
+    width: 10%;
+}
+
+/*Style the footer*/
+body>footer {
+    background-image: linear-gradient(red, #2c07a5);
+}
+
+/*Style the footer text*/
+.class-col-paragraph>p {
+    font-size: 1.0em;
+    color: #bae9e9;
+}
+
+.class-image-div {
+    display: block;
+    width: 7%;
+}
+
+/*Style the footer image*/
+.class-image-div img {
+    width: 100%;
+}
+
+/*Style the tooptip*/
+.tooltip-inner {
+    text-align: left;
+    font-size: 0.9em;
+    color: #f7e842;
+}
+
+/*Style the popover*/
+.popover {
+    background: #00ff11;
+    font-family: serif;
+}
+
+
+
+
+
+
+
+
+
+
+

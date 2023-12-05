@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE Cinema</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark nav-class">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="images/logo/logo-header-vue.png" alt="Cinema Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 navigation_link_class">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="index.html?referrer=navbar">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="movies.html?referrer=navbar">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="kitchen.html?referrer=navbar">Kitchen Bar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="contacts.html?referrer=navbar">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container rounded-2 mt-5" id="movies_article">
+        <h1 class="text-center pt-3 pb-4">Top Films</h1>
+        <div class="movies_articles_div_class">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 bg-warning movies_article_link_class">
+                        <img class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-custom-class="custom-tooltip"
+                            data-bs-title="Doctor Strange In The Multiverse of Madness. Tonight midnight."
+                            src="images/movies/Doctor_Strange.jpg" alt="Movies of Doctor Strange">
+                        <div class="card-body div_card_alink_class">
+                            <h5 class="card-title fs-5">Doctor Strange In The Multiverse of Madness</h5>
+                            <a href="movieDetail.html?referrer='movieDetail.html"
+                                class="btn btn-success class_div_doctorStrange_a_link">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 bg-warning movies_article_link_class">
+                        <img class="img-fluid" src="images/movies/Fire_Starter.jpg" alt="Movies of Fire Starter"
+                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                            data-bs-title="Fire Starter. Coming Soon.">
+                        <div class="card-body div_card_alink_class">
+                            <h5 class="card-title fs-5">FireStarter</h5>
+                            <a href="movieDetailFireStarter.html?referrer='movieDetailFireStarter.html'"
+                                class="btn btn-success class_div_fireStarter_a_link div_firestar_a_link">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 bg-warning movies_article_link_class">
+                        <img class="img-fluid" src="images/movies/Jussica_World.jpg" data-bs-toggle="tooltip"
+                            data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                            data-bs-title="See the Historical Animals Rule the World. Jurassic World."
+                            alt="Movies of Jurassic World">
+                        <div class="card-body div_card_alink_class">
+                            <h5 class="card-title fs-5">Jurassic World : Dominion</h5>
+                            <a href="movieDetailJussicaWorld.html?referrer='movieDetailJussicaWorld.html'"
+                                class="btn btn-success class_div_jussicalWorld_a_link">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100 bg-warning movies_article_link_class">
+                        <img class="img-fluid" src="images/movies/top_gun_index.jpg" alt="Movies of Top Gun"
+                            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                            data-bs-title="See the Sequel to Top Gun. Top Gun Maverick">
+                        <div class="card-body div_card_alink_class ">
+                            <h5 class="card-title fs-5">Top Gun Maverick</h5>
+                            <a href="movieDetailTopGun.html?referrer='movieDetailTopGun.html'"
+                                class="btn btn-success class_div_topGun_a_link">More
+                                Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container rounded-2 mt-5" id="corporate_customer_article">
+        <div class="row">
+            <div class="col-md-6 col-sm-5 mt-4 mx-1">
+                <img class="img-fluid" src="images/misc/CF-NATAMUSE_fp15.png" alt="Fantastic Beast Movie Picture">
+            </div>
+            <div class="col-md-5 col-sm-6">
+                <div class="row mt-4 mb-4">
+                    <h3 class="col-md-12">Corporate Customers</h3>
+                </div>
+                <div class="row">
+                    <p class="col-md-12 mt-2 ms-4">
+                        The sales of our paper
+                        Prestige tickets have
+                        ended in March. Corporate
+                        Cards are now available
+                        from the link at the
+                        bottom of the Showcase
+                        website. Thank you.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3 col-sm-4"><a class="btn my-2 text-center rounded-2"
+                    href="egifts.html#egifts_cards">eGifts Cards</a></div>
+            <div class="col-md-3 col-sm-4"><a class="btn my-2 text-center rounded-2"
+                    href="egifts.html#gifts_cards">Gifts Cards</a></div>
+            <div class="col-md-3 col-sm-4"><a class="btn my-2 text-center rounded-2"
+                    href="egifts.html#coporate_cards">Corporate Cards</a></div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="container rounded-2 mt-5 py-2" id="cinema_birthday_article">
+        <div class="row mt-2 text-center" id="header_class">
+            <h2>Cinema Birthday</h2>
+        </div>
+        <div class="row" id="summary">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 col-sm-6 mt-2">
+                <div class="offcanvas offcanvas-start" id="basic_package_id">
+                    <div class="offcanvas-header class_offcanvas_header">
+                        <h1 class="offcanvas-title font-weight-bold h1-text-class">Basic Package</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body class_offcanvas_header">
+                        <p id="basic_package" class="cinema_birthday_class">
+                            Minimum number of children: 18<br>
+                            Requirement: 2-12 years old<br>
+                            Price per child: $14.00 (+tax)<br>
+                            Includes:<br>
+                            <em>Movie</em><br>
+                            12 Tokens for the theater game room<br>
+                            Small Popcorn 32oz and Soft Drink 12oz<br>
+                            Use of the “Party Room” for 1 hour<br>
+                            Coordinator<br>
+                            Invitations<br>
+                            Courtesy pass for the Birthday Child<br>
+                            Utensils in Party Room (cups, tablecloths, plates)<br>
+                            Optional: Adult tickets at discount price<br>
+                            *Cake and Soft drink are not included in Party Room<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-warning card-class">
+                    <div class="card-header card-text">Basic Package</div>
+                    <div class="card-footer"><button class="btn btn-class" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#basic_package_id">More Details</button></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-6 mt-2">
+                <div class="offcanvas offcanvas-start" id="premium_package_id">
+                    <div class="offcanvas-header class_offcanvas_header">
+                        <h1 class="offcanvas-title h1-text-class font-weight-bold">Premium Package</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body  class_offcanvas_header">
+                        <p id="premium_package" class="cinema_birthday_class">
+                            Minimum number of children: 15<br>
+                            Requirement: 2-12 years old<br>
+                            Price per child: $17.50 (+tax)<br>
+                            Includes:<br>
+                            <em>Movie</em><br>
+                            12 Tokens for the theater game room<br>
+                            Small Popcorn 32oz and Soft Drink 12oz<br>
+                            Use of the “Party Room” for 1 hour<br>
+                            Pizza slice or Hot Dog and one additional Soft Drink 12oz in Party Room<br>
+                            Coordinator<br>
+                            Invitations<br>
+                            Courtesy pass for the Birthday Child<br>
+                            Utensils in Party Room (cups, tablecloths, plates)<br>
+                            Optional: Adult tickets at discount price<br>
+                            **Cake not included<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="card bg-warning card-class">
+                    <div class="card-header card-text">Premium Package</div>
+                    <div class="card-footer"><button class="btn btn-class" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#premium_package_id">More Details</button></div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container rounded-2 mt-5" id="kitchen_bar_article">
+        <div class="row">
+            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-8 col-sm-8">
+                <img class="img-fluid" src="images/victor_resturant/victors-01-600x150.png" alt="Kitchen and Bar Logo">
+            </div>
+            <div class="col-md-2 col-sm-2"></div>
+        </div>
+        <div class="row" id="kitchen_bar_article_image">
+            <div class="image_food_class">
+                <img class="img-fluid" src="images/victor_resturant/menu-franja-victors.jpg" alt="Kitchen and Bar Menu">
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-5"></div>
+                <div class="col-md-2 col-sm-2" id="opening_times">
+                    <button type="button" class="btn btn-color" data-bs-custom-class="popOverBox"
+                        data-bs-toggle="popover" title="Opening Times" data-bs-content="Monday - Sunday (10am - 10pm)">
+                        Opening Times
+                    </button>
+                </div>
+                <div class="col-md-5 col-sm-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-5"></div>
+                <div class="col-md-2 col-sm-2 mx-auto mt-3 mb-3 menu-class"><a class="btn btn-color"
+                        href="menu.html">Menu</a></div>
+                <div class="col-md-5 col-sm-5"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="container rounded-2 mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-3 my-auto ms-4 class-col-paragraph">
+                <p>&copy; VUE Cinemas Limited 2019 to 2022. All rights reserved</p>
+            </div>
+            <div class="col-md-3 col-sm-3 my-5"></div>
+            <div class="col-md-1 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/facebook.png" class="img-fluid" alt="Facebook"></a>
+            </div>
+            <div class="col-md-1 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/twitter.png" class="img-fluid" alt=""></a>
+            </div>
+            <div class="col-md-2 col-sm-2 my-auto class-image-div">
+                <a href=""><img src="images/logo/instagram.png" class="img-fluid" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUE Cinema</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/movie_stylee.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark nav-class">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="images/logo/logo-header-vue.png" alt="Cinema Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0 navigation_link_class">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="index.html?referrer=navbar">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="movies.html?referrer=navbar">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="kitchen.html?referrer=navbar">Kitchen Bar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fs-5" href="contacts.html?referrer=navbar">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide mt-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="container carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="images/movies/doctor_strange_multiverse_madness_carousel.png"
+                    class="d-block w-100" alt="Picture of Doctor Strange in the Multiverse of Madness">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Doctor Strange in the Multiverse of Madness</h2>
+                    <h3>Now Showing</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="images/movies/Top-Gun-Maverick-carousel.png" class="d-block w-100"
+                    alt="Picture of Top Gun:Maverick">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Top Gun : Maverick</h2>
+                    <h3>Now Showing</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="images/movies/JW3-carousel.png" class="d-block w-100"
+                    alt="Picture of Jurassic World Dominion">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Jurassic World Dominion</h2>
+                    <h3>Coming Soon</h3>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <nav class="mt-5" id="now_showing_navigation_id">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link nav-link-class" aria-current="page" href="#">Now Showing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-class" href="#">Advance Sales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link-class" href="#">Coming Soon</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container mt-5 rounded-2">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Thor.jpg" class="img-fluid card-img-top" data-bs-toggle="tooltip"
+                        data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Find Thor in a Journey unlike any journey he never face."
+                        alt="Picture of Thor : Love and Thunder">
+                    <div class="card-body">
+                        <h5 class="card-title">Thor : Love and Thunder</h5>
+                        <p class="card-text thor_card_text_class">PG 13 - Some Violence</p>
+                        <a href="#" class="btn btn-primary thor_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Mino.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Minions : The Rise of Gru" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Next summer, comes the untold story of the MINIONS 2: THE RISE OF GRU.">
+                    <div class="card-body">
+                        <h5 class="card-title">Minions : The Rise of Gru</h5>
+                        <p class="card-text minions_card_text_class">PG</p>
+                        <a href="#" class="btn btn-primary mino_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Doctor_Strange-2.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Doctor Strange In The Multiverse" data-bs-toggle="tooltip"
+                        data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Benedict Cumberbatch’s sixth outing as Dr. Stephen Strange sees his character in
+                        Doctor Strange In The Multiverse">
+                    <div class="card-body">
+                        <h5 class="card-title">Doctor Strange In The Multiverse</h5>
+                        <p class="card-text">PG 13</p>
+                        <a href="movieDetail.html" class="btn btn-primary doctorStrange_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Top Gun.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Top Gun : Maverick" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="See Tom Cruise as Pete “Maverick” Mitchell in Top Gun : Maverick.">
+                    <div class="card-body">
+                        <h5 class="card-title">Top Gun : Maverick</h5>
+                        <p class="card-text topGun_card_text_class">PG 13</p>
+                        <a href="#" class="btn btn-primary topGun_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5 rounded-2">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Elevis.jpg" class="img-fluid card-img-top" alt="Picture of Elvis"
+                        data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="'Elvis' film explores the life and music of Elvis Presley (Austin Butler).">
+                    <div class="card-body">
+                        <h5 class="card-title">Elvis</h5>
+                        <p class="card-text">PG 13</p>
+                        <a href="#" class="btn btn-primary elevis_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Jussical_World.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Jurassic World Dominion" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Four years after Isla Nublar has been destroyed, dinosaurs now live—and hunt—alongside humans all over the world">
+                    <div class="card-body">
+                        <h5 class="card-title">Jurassic World Dominion</h5>
+                        <p class="card-text">PG 13 - Some Violence </p>
+                        <a href="#" class="btn btn-primary jussicalWorld_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/LightYear.jpg" class="img-fluid card-img-top" alt="Picture of Lightyear"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="A sci-fi action-adventure and the definitive origin story of Buzz Lightyear, 
+                    the hero who inspired the toy, “Lightyear”.">
+                    <div class="card-body">
+                        <h5 class="card-title">Lightyear</h5>
+                        <p class="card-text">NC 16</p>
+                        <a href="#" class="btn btn-primary lightYear_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Sonic.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Sonic the Hedgehog 2" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="The world’s favorite blue hedgehog is back for a next-level adventure in SONIC THE HEDGEHOG 2.">
+                    <div class="card-body">
+                        <h5 class="card-title">Sonic the Hedgehog 2</h5>
+                        <p class="card-text">NC 16</p>
+                        <a href="#" class="btn btn-primary sonic_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5 rounded-2">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Abbey.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Downtown Abbey : A New Era"  data-bs-toggle="tooltip" data-bs-placement="top" 
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="From award-winning creator Julian Fellowes comes the motion picture event DOWNTON ABBEY: A NEW ERA.">
+                    <div class="card-body">
+                        <h5 class="card-title">Downtown Abbey : A New &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Era</h5>
+                        <p class="card-text">PG 13</p>
+                        <a href="#" class="btn btn-primary abbey_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/CrawDads.jpg" class="img-fluid card-img-top"
+                        alt="Picture of Where the Crawdads Sing" 
+                        data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="From the best-selling novel comes a captivating story, Where the Crawdads Sing"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Where the Crawdads Sing</h5>
+                        <p class="card-text crawDads_card_text_class">PG 13</p>
+                        <a href="#" class="btn btn-primary crawDads_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/Black_Phone.jpg" class="img-fluid card-img-top"
+                        alt="Picture of The Black Phone"
+                        data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer
+                         and trapped in a soundproof basement where screaming is of little use.See the show, Black Phone" />
+                    <div class="card-body">
+                        <h5 class="card-title">The Black Phone</h5>
+                        <p class="card-text blackPhone_card_text_class">NC 16</p>
+                        <a href="#" class="btn btn-primary blackPhone_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3 card_movies_class">
+                <div class="card h-100 text-bg-success">
+                    <img src="images/movies/fid21493 (1).jpg" class="img-fluid card-img-top"
+                        alt="Picture of Prima Facie" 
+                        data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="An original movie event, Bullet Train is a fun, delirious action-thriller from the director of Deadpool 2, David Leitch."/>
+                    <div class="card-body">
+                        <h5 class="card-title">Bullet Train</h5>
+                        <p class="card-text primaFacie_card_text_class">NC 16</p>
+                        <a href="#" class="btn btn-primary primaFacie_btn_class">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="container rounded-2 mt-5">
+        <div class="row">
+        <div class="col-md-6 col-sm-3 my-auto ms-4 class-col-paragraph">
+            <p>&copy; VUE Cinemas Limited 2019 to 2022. All rights reserved</p>
+        </div>
+        <div class="col-md-3 col-sm-3 my-5"></div>
+        <div class="col-md-1 col-sm-2 my-auto class-image-div">
+            <a href=""><img src="images/logo/facebook.png" class="img-fluid" alt="Facebook"></a>
+        </div>
+        <div class="col-md-1 col-sm-2 my-auto class-image-div">
+            <a href=""><img src="images/logo/twitter.png" class="img-fluid" alt=""></a>
+        </div>
+        <div class="col-md-2 col-sm-2 my-auto class-image-div">
+            <a href=""><img src="images/logo/instagram.png" class="img-fluid" alt=""></a>
+        </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
